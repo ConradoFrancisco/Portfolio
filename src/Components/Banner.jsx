@@ -4,7 +4,7 @@ import Github from "../assets/svgs/Github";
 import { ReactTyped } from "react-typed";
 import Linkedin from "../assets/svgs/Linkedin";
 import Gmail from "../assets/svgs/Gmail";
-
+import {TfiEmail} from 'react-icons/tfi'
 export default function Banner(){
     return(
       <header className="mt-7">
@@ -37,9 +37,11 @@ export default function Banner(){
                   <input className='bg-fondo-start w-3/4' type="text" disabled />
                 </ReactTyped>
             </div>
-            <Github height={40} width={40}/>
-            <Linkedin height={40} width={40}/>
-            <Gmail height={40} width={40}/>
+            <div className="flex flex-row gap-9 mt-7">
+                <Github height={40} width={40}/>
+                <Linkedin height={40} width={40}/>
+                <TfiEmail className="hover:cursor-pointer hover:scale-125 hover:fill-orange-300" size={45} width={40} height={40} color="white"/>
+            </div>
      </header>
     );
   }
