@@ -7,7 +7,8 @@ export default {
         fondo:{
           start: '#0b0b0b',
           end:'#0b0b0b'
-        } 
+        },
+        fondoBlanco: '#FDFBF6'
       }
     },
   },

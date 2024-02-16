@@ -10,8 +10,8 @@ function App() {
 
 
   return (
-    <div className='bg-fondo-start'>
-      <main className="h-screen bg-fondo-start ml-40 mr-40">
+    <div className='bg-fondo-end'>
+      <main className="h-screen bg-fondo-end ml-40 mr-40">
         <Navbar/>
         <Banner/>
       </main>
